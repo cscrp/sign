@@ -1,0 +1,384 @@
+.top {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+
+.log {
+    width: 1200px;
+    height: 26px;
+    margin: 0 auto;
+}
+
+.log img {
+    width: 186px;
+    height: 26px;
+}
+
+.middle {
+    width: 100%;
+    height: 600px;
+    background: url(../images/bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.login {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.login-newbg,
+.login-newbg2 {
+    width: 350px;
+    height: 350px;
+    background-color: hsla(0, 0%, 100%, .9);
+    position: relative;
+    top: 98px;
+    left: 820px;
+}
+
+.login-password {
+    width: 300px;
+    height: 287px;
+    margin: auto auto;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 27px;
+}
+
+.login-password p {
+    height: 18px;
+    line-height: 5px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 9px 10px 0 0;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.user input {
+    background-image: url(../images/用户.png);
+}
+
+.login-bottom,
+.login-pas {
+    width: 300px;
+    height: 240px;
+}
+
+.user input,
+.password input,
+.phone input,
+.verificationCode input {
+    background-size: 12% 80%;
+    background-repeat: no-repeat;
+}
+
+.password input {
+    background-image: url(../images/密码.png);
+}
+
+.phone input {
+    background-image: url(../images/手机1.png);
+}
+
+.verificationCode input {
+    background-image: url(../images/验证码.png);
+}
+
+.user div,
+.password div {
+    width: 40px;
+    height: 40px;
+}
+
+.user,
+.password,
+.phone,
+.verificationCode {
+    display: flex;
+    width: 300px;
+    height: 42px;
+    box-sizing: border-box;
+}
+
+
+.login-password input {
+    width: 320px;
+    height: 42px;
+    border: 1px solid #ccc;
+    height: 42px;
+    outline: none;
+    font-size: 14px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.login-password button {
+    background: #f40;
+    border-color: #f40;
+    border: 1px solid #ff9000;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 42px;
+    line-height: 42px;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.login-blocks {
+    width: 300px;
+    height: 24px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.micro-blog,
+.alipay {
+    display: flex;
+}
+
+.login-blocks img {
+    width: 16px;
+    height: 18px;
+}
+
+.login-blocks p,
+.right p {
+    color: #6c6c6c;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.login-blocks p:hover,
+.right p:hover {
+    color: #ff9000;
+}
+
+.right {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exhibition {
+    display: block;
+}
+
+.passwordLogin,
+.SMSLogin {
+    cursor: pointer;
+}
+
+.bottom-top {
+    display: flex;
+    font-size: 12px;
+    color: #6c6c6c;
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+    line-height: 30px;
+}
+
+.bottom-top p {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.bottom-top p:hover {
+    color: #ff9000;
+}
+
+.bottom-middle {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom-middle b,
+.bottom-middle i {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bottom-middle b {
+    font-weight: 500;
+    cursor: pointer;
+    color: #6c6c6c;
+}
+
+.bottom-middle b:hover {
+    color: #ff9000;
+}
+
+.bottom-middle i {
+    color: #9c9c9c;
+    font-style: normal;
+}
+
+.bottom-bottom {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    bottom: 0px;
+}
+
+.bottom-bottom img {
+    margin-left: 10px;
+}
+
+.middleOne,
+.middleTwo,
+.middleThree {
+    width: 1200px;
+    height: 26px;
+}
+
+.middleFour {
+    width: 1200px;
+    height: 44px;
+}
+
+.icon-qrcode:before {
+    content: "\E628";
+}
+
+.iconfont {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 52px;
+    line-height: 52px;
+    cursor: pointer;
+    color: #f40;
+}
+
+.poptip {
+    border: 1px solid #f3d995;
+    background: #fefcee;
+    width: 106px;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    top: -51px;
+    right: -148px;
+    padding-left: 10px;
+}
+
+.poptip-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 8px;
+    right: 0;
+}
+
+.poptip-arrow em {
+    top: 0;
+    left: 1px;
+    position: absolute;
+    border-left-color: #ff9000;
+    border-width: 6px 0 6px 6px;
+    z-index: 9999;
+}
+
+.poptip-arrow span {
+    border-left-color: #fefcee;
+    border-width: 6px 0 6px 6px;
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+}
+
+.poptip-content {
+    color: #ff9000;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.loginPc {
+    width: 300px;
+    height: 288px;
+    margin-left: 48px;
+    padding-top: 28px;
+}
+
+.login-newbg2 img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sha {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 0 8px #c6c4ce;
+    margin-left: 40px;
+    margin-top: 33px;
+    position: relative;
+}
+
+.login-newbg2 p {
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin: 9px 10px 0 0;
+    font-weight: 700;
+}
+
+.qrcode-desc>.iconfont {
+    position: absolute;
+    top: 230px;
+    left: 85px;
+}
+
+/* .qrcode-desc i {
+    font-style: normal;
+    color: #6c6c6c;
+} */
+.bbb {
+    width: 188px;
+    height: 36px;
+    line-height: 18px;
+    position: absolute;
+    top: 237px;
+    left: 125px;
+}
+
+.qrcode-desc b {
+    font-weight: 500;
+    color: #6c6c6c;
+    margin-top: 10px;
+}
+
+.loginPc i {
+    font-style: normal;
+    color: #6c6c6c;
+    cursor: pointer;
+}
+
+.loginPc i:hover {
+    color: #ff9000;
+}
+
+.iconfont {
+    color: #ff9000;
+}
+
+.ccc {
+    position: absolute;
+    bottom: 33px;
+    right: 19px;
+}
